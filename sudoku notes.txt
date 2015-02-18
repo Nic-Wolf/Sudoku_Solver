@@ -1,0 +1,51 @@
+
+ - DOM!
+
+ 	take the data from the html element of coice (TBA) and store them in an object for evaluation
+
+ - DATA STRUCTURES?
+
+ 	- we need a data structure that allows for SIMPLE AND EASY evaluation between rows and columns
+ 	- needs to be organized and portable
+ 	- needs to be able to evaluate matrixes (rows and columns)
+ 	- needs to be able to evaluate the respective matrixes, and their rows and columns
+
+ 	possible structure:
+
+ 		[{}]
+
+
+
+ 		matrix 1:
+ 			rows
+
+
+ - ALGORITHM?
+
+ 	each matrix has 9 numbers, in 3 rows of 3
+
+ 	so, every 123, has to evaluate the congruent 123's
+ 	ditto for 
+ 		across:
+ 		123
+ 		456
+ 		789
+ 		down:
+ 		147
+ 		258
+ 		369
+
+ 	each matrix much check other matrixes.
+
+ 	123    matrix checks at verticle (matrix array -3, -6, +3 and +6)
+ 	456	   maxtrix checks at sides (matrix array -1, -2, +1 and +2)
+ 	789    set them explicitly from their array entries!
+
+
+
+ - NECESSARY I/O?
+
+ - 
+
+
+ problem 1 : needs to take in a partial sudoku matrix and build the board..
