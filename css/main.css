@@ -23,8 +23,9 @@ Copyright (c) Nicolas Gallagher and Jonathan Neal
 	          box-sizing: border-box;
 	}
 
-.container {
-  max-width: 90%;
+#container {
+  margin: 0 auto;
+  width: 75%;
   background: #f9f9f9;
   position: relative;
   border: 3px solid black;
